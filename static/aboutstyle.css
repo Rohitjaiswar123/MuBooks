@@ -72,7 +72,7 @@ header .carousel-inner .item {
 .card-img-top{
  box-shadow: 0 0 20px 7px rgba(0,0,0,0.1);
  height:180px;
- width:150px;
+ width:100%;
  text-align: center;
  
 }

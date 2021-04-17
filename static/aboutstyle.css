@@ -75,7 +75,10 @@ header .carousel-inner .item {
  width:150px;
  
 }
-
+.card{
+padding-bottom: 20px;
+padding-left: 50px;
+}
 
 h5{
  color: white;

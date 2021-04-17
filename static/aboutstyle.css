@@ -78,7 +78,9 @@ header .carousel-inner .item {
 }
 .card{
 padding-bottom: 20px;
-
+ text-align: center;
+ display: flex;
+ align-items: center;
 }
 
 h5{

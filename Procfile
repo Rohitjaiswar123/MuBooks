@@ -1,1 +1,1 @@
-web: gunicorn bestoffersindia.wsgi
+web: gunicorn mubook.wsgi

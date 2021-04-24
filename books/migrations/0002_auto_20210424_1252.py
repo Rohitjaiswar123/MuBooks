@@ -12,26 +12,26 @@ class Migration(migrations.Migration):
     operations = [
         migrations.RenameModel(
             old_name='ElectricalTEBooks',
-            new_name='CompsFEBooks',
+            new_name='EXTCTEBooks',
         ),
         migrations.RenameModel(
             old_name='ElectricalSEBooks',
-            new_name='CompsSEBooks',
-        ),
-        migrations.RenameModel(
-            old_name='ElectricalFEBooks',
-            new_name='CompsTEBooks',
-        ),
-        migrations.RenameModel(
-            old_name='CivilSEBooks',
-            new_name='EXTCFEBooks',
-        ),
-        migrations.RenameModel(
-            old_name='CivilFEBooks',
             new_name='EXTCSEBooks',
         ),
         migrations.RenameModel(
+            old_name='ElectricalFEBooks',
+            new_name='EXTCFEBooks',
+        ),
+        migrations.RenameModel(
+            old_name='CivilSEBooks',
+            new_name='CompsSEBooks',
+        ),
+        migrations.RenameModel(
+            old_name='CivilFEBooks',
+            new_name='CompsFEBooks',
+        ),
+        migrations.RenameModel(
             old_name='CivilTEBooks',
-            new_name='EXTCTEBooks',
+            new_name='CompsTEBooks',
         ),
     ]

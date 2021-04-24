@@ -1,5 +1,5 @@
 {% load static %}
-{% static "images" as baseUrl%}
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -39,7 +39,7 @@ body {
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
- 
+
                     </button>
                     <a class="navbar-brand" href="#">MUBOOKS</a>
                 </div>
@@ -47,12 +47,11 @@ body {
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
-                        <ul class="nav navbar-nav navbar-right">
+                    <ul class="nav navbar-nav navbar-right">
                         <li><a href="home">Home</a></li>
                         <li><a href="aboutus">About</a></li>
 
                     </ul>
-
                 </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->
         </nav>
@@ -70,16 +69,12 @@ body {
 <section id="facilities">
     <div class="container blur">
         <div class="title">
-            <h1>Third Year</h1>
-            <h3>Civil Engineering</h3>
+            <h1>Fourth Year</h1>
+            <h3>Computer Science</h3>
         </div>
-
-        <div class="row">
-            <div class= "col-md-4">
-            
         <div class="container">
             <div class= "row">            
-            {% for book in bookobj9 %}
+            {% for book in bookobj13%}
                 <div class= "col-sm-4 col-md-4 col-lg-4 col-xs-6">
                     <div class="card">
                         <img src="{{book.img.url}}" class="card-img-top mx-auto">
@@ -100,7 +95,8 @@ body {
 
              
 
-       
+     
+
 
   
 

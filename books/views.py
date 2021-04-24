@@ -23,13 +23,13 @@ def MecSBooks (requests):
     bookobj4=MecSEBooks.objects.all()        
     return render(requests, 'MecSBooks.html',{'bookobj4' : bookobj4})
     
-def CivilSBooks (requests):
-    bookobj5=CivilSEBooks.objects.all()
-    return render(requests, 'CivilSBooks.html',{'bookobj5' : bookobj5})
+def CompsSBooks (requests):
+    bookobj5=CompsSEBooks.objects.all()
+    return render(requests, 'CompsSBooks.html',{'bookobj5' : bookobj5})
 
-def ElectricalSBooks (requests):
-    bookobj6=ElectricalSEBooks.objects.all
-    return render(requests, 'ElectricalSBooks.html',{'bookobj6' : bookobj6})
+def EXTCSBooks (requests):
+    bookobj6=EXTCSEBooks.objects.all
+    return render(requests, 'EXTCSBooks.html',{'bookobj6' : bookobj6})
 
 def ITTBooks (requests):
     bookobj7=ITFEBooks.objects.all()
@@ -39,13 +39,13 @@ def MecTBooks (requests):
     bookobj8=MecTEBooks.objects.all()
     return render(requests, 'MecTBooks.html',{'bookobj8' : bookobj8})
     
-def CivilTBooks (requests):
-    bookobj9=CivilTEBooks.objects.all()
-    return render(requests, 'CivilTBooks.html',{'bookobj9' : bookobj9})
+def CompsTBooks (requests):
+    bookobj9=CompsTEBooks.objects.all()
+    return render(requests, 'CompsTBooks.html',{'bookobj9' : bookobj9})
 
-def ElectricalTBooks (requests):
-    bookobj10=ElectricalTEBooks.objects.all()
-    return render(requests, 'ElectricalTBooks.html',{'bookobj10' : bookobj10})
+def EXTCTBooks (requests):
+    bookobj10=EXTCTEBooks.objects.all()
+    return render(requests, 'EXTCTBooks.html',{'bookobj10' : bookobj10})
 
 def ITFBooks (requests):
     bookobj11=ITFEBooks.objects.all()
@@ -55,13 +55,13 @@ def MecFBooks (requests):
     bookobj12=MecFEBooks.objects.all()
     return render(requests, 'MecFBooks.html',{'bookobj12' : bookobj12})
     
-def CivilFBooks (requests):
-    bookobj13=CivilFEBooks.objects.all()
-    return render(requests, 'CivilFBooks.html',{'bookobj13' : bookobj13})
+def CompsFBooks (requests):
+    bookobj13=CompsFEBooks.objects.all()
+    return render(requests, 'CompsFBooks.html',{'bookobj13' : bookobj13})
 
-def ElectricalFBooks (requests):
-    bookobj14=ElectricalFEBooks.objects.all()
-    return render(requests, 'ElectricalFBooks.html',{'bookobj14' : bookobj14})
+def EXTCFBooks (requests):
+    bookobj14=EXTCFEBooks.objects.all()
+    return render(requests, 'EXTCFBooks.html',{'bookobj14' : bookobj14})
     
 
 

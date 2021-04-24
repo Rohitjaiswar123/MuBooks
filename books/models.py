@@ -24,12 +24,12 @@ class MecSEBooks(models.Model):
     desc = models.TextField()
     link = models.URLField(max_length=200)
     img = models.ImageField(upload_to='pics')
-class CivilSEBooks(models.Model):
+class CompsSEBooks(models.Model):
     title = models.CharField(max_length=100)
     desc = models.TextField()
     link = models.URLField(max_length=200)
     img = models.ImageField(upload_to='pics')
-class ElectricalSEBooks(models.Model):
+class EXTCSEBooks(models.Model):
     title = models.CharField(max_length=100)
     desc = models.TextField()
     link = models.URLField(max_length=200)
@@ -44,12 +44,12 @@ class MecTEBooks(models.Model):
     desc = models.TextField()
     link = models.URLField(max_length=200)
     img = models.ImageField(upload_to='pics')
-class CivilTEBooks(models.Model):
+class CompsTEBooks(models.Model):
     title = models.CharField(max_length=100)
     desc = models.TextField()
     link = models.URLField(max_length=200)
     img = models.ImageField(upload_to='pics')
-class ElectricalTEBooks(models.Model):
+class EXTCTEBooks(models.Model):
     title = models.CharField(max_length=100)
     desc = models.TextField()
     link = models.URLField(max_length=200)
@@ -64,12 +64,12 @@ class MecFEBooks(models.Model):
     desc = models.TextField()
     link = models.URLField(max_length=200)
     img = models.ImageField(upload_to='pics')
-class CivilFEBooks(models.Model):
+class CompsFEBooks(models.Model):
     title = models.CharField(max_length=100)
     desc = models.TextField()
     link = models.URLField(max_length=200)
     img = models.ImageField(upload_to='pics')
-class ElectricalFEBooks(models.Model):
+class EXTCFEBooks(models.Model):
     title = models.CharField(max_length=100)
     desc = models.TextField()
     link = models.URLField(max_length=200)

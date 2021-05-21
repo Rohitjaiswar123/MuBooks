@@ -32,7 +32,7 @@ def EXTCSBooks (requests):
     return render(requests, 'EXTCSBooks.html',{'bookobj6' : bookobj6})
 
 def ITTBooks (requests):
-    bookobj7=ITFEBooks.objects.all()
+    bookobj7=ITTEBooks.objects.all()
     return render(requests, 'ITTBooks.html',{'bookobj7' : bookobj7})
     
 def MecTBooks (requests):
